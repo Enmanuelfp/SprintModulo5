@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SprintModulo5</string>
+    <string name="store_name">Shoes Tap</string>
+
+    <!-- Categorías -->
+    <string name="category_shoes">Colección Zapatos</string>
+    <string name="category_sneakers">Colección Zapatillas</string>
+
+    <!-- Zapatos -->
+    <string name="shoe_red_1">Red Elegance</string>
+    <string name="shoe_brown_3">Brown Luxury</string>
+    <string name="shoe_black_1">Black Classic</string>
+    <string name="shoe_black_2">Black Elite</string>
+    <string name="shoe_black_3">Black Supreme</string>
+    <string name="shoe_brown_1">Brown Style</string>
+    <string name="shoe_brown_2">Brown Prestige</string>
+
+    <!-- Zapatillas -->
+    <string name="sneaker_red">Crimson Runner</string>
+    <string name="sneaker_multicolor">Color Burst</string>
+    <string name="sneaker_blue_1">Blue Motion</string>
+    <string name="sneaker_blue_2">Ocean Wave</string>
+    <string name="sneaker_blue_3">Skyline Sprint</string>
+    <string name="sneaker_green_1">Green Energy</string>
+    <string name="sneaker_green_2">Forest Power</string>
+</resources>
+
