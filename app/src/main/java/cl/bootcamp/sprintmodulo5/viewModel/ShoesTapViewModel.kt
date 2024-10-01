@@ -4,9 +4,12 @@ import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import cl.bootcamp.sprintmodulo5.R
+import cl.bootcamp.sprintmodulo5.data.DataStore
 import cl.bootcamp.sprintmodulo5.model.CartItem
 import cl.bootcamp.sprintmodulo5.model.ProductItem
+import kotlinx.coroutines.launch
 
 class ShoesTapViewModel: ViewModel() {
     val shoes = listOf(
@@ -52,8 +55,12 @@ class ShoesTapViewModel: ViewModel() {
         }else{
             _cartItems.add(CartItem(product,cantidad,talla))
         }
-        // Aquí podrías llamar a una función para guardar en DataStore
+
     }
+
+
+
+
 
 
 }
