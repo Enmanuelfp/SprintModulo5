@@ -17,9 +17,9 @@ import androidx.compose.ui.unit.sp
 fun ShoeCard(
     img: Painter,
     title: String,
-    description: String,
+    description: String?,
     price: String,
-    onClick: () -> Unit // Parámetro para manejar clics en la tarjeta
+    onClick: () -> Unit
 ) {
     Card(
         modifier = Modifier

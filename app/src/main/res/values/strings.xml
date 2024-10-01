@@ -23,5 +23,25 @@
     <string name="sneaker_blue_3">Skyline Sprint</string>
     <string name="sneaker_green_1">Green Energy</string>
     <string name="sneaker_green_2">Forest Power</string>
+
+    <!-- Descripción zapatos -->
+    <string name="desc_shoe_red_1">Un elegante zapato rojo con diseño clásico, ideal para ocasiones formales.</string>
+    <string name="desc_shoe_brown_3">Zapato marrón oscuro con acabados de calidad, perfecto para un look profesional.</string>
+    <string name="desc_shoe_black_1">Clásico zapato negro con un diseño minimalista, ideal para eventos formales.</string>
+    <string name="desc_shoe_black_2">Zapato negro con detalles elegantes, una opción versátil para diferentes ocasiones.</string>
+    <string name="desc_shoe_black_3">Zapato negro con estilo moderno y refinado, perfecto para la oficina o eventos casuales.</string>
+    <string name="desc_shoe_brown_1">Un zapato marrón claro de cuero, ideal para combinaciones casuales o formales.</string>
+    <string name="desc_shoe_brown_2">Sofisticado zapato marrón con detalles únicos, excelente para ocasiones especiales.</string>
+
+    <!-- Descripción zapatillas -->
+    <string name="desc_sneaker_red">Zapatillas deportivas rojas, perfectas para un look casual con un toque vibrante.</string>
+    <string name="desc_sneaker_multicolor">Zapatilla con un diseño multicolor dinámico, ideal para quienes buscan originalidad.</string>
+    <string name="desc_sneaker_blue_1">Zapatilla azul con un diseño minimalista, perfecta para salidas casuales.</string>
+    <string name="desc_sneaker_blue_2">Cómodas zapatillas azules con detalles llamativos, ideal para un look moderno.</string>
+    <string name="desc_sneaker_blue_3">Estilo azul oscuro con detalles sutiles, combina bien con cualquier atuendo deportivo.</string>
+    <string name="desc_sneaker_green_1">Zapatillas verdes con diseño ergonómico, excelente para actividades deportivas.</string>
+    <string name="desc_sneaker_green_2">Zapatillas verdes con diseño elegante y versátil, ideales para actividades diarias.</string>
+
+
 </resources>
 
