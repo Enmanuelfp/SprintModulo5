@@ -20,15 +20,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.ViewModel
 import androidx.navigation.NavController
 import cl.bootcamp.sprintmodulo5.R
 import cl.bootcamp.sprintmodulo5.component.ShoeCard
 import cl.bootcamp.sprintmodulo5.component.TitleNameList
 import cl.bootcamp.sprintmodulo5.component.Space
-import cl.bootcamp.sprintmodulo5.model.ProductItem
 import cl.bootcamp.sprintmodulo5.viewModel.ShoesTapViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)

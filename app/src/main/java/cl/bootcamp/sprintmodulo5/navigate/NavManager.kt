@@ -7,19 +7,19 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import cl.bootcamp.sprintmodulo5.data.DataStore
+import cl.bootcamp.sprintmodulo5.data.CartManager
 import cl.bootcamp.sprintmodulo5.view.Cart
 import cl.bootcamp.sprintmodulo5.view.DescriptionScreen
 import cl.bootcamp.sprintmodulo5.view.MainScreen
 import cl.bootcamp.sprintmodulo5.viewModel.ShoesTapViewModel
 
 @Composable
-fun NavManager() {
+fun NavManager(viewModel: ShoesTapViewModel) {
     val navController = rememberNavController()
-    val viewModel: ShoesTapViewModel = viewModel()
+    //val viewModel: ShoesTapViewModel = viewModel()
     val context = LocalContext.current
-    val dataStore = DataStore(context)
-    val shoppingCart = dataStore.getListCart.collectAsState(initial = emptyList())
+    val cartManager = CartManager(context)
+    val shoppingCart = cartManager.getListCart.collectAsState(initial = emptyList())
 
     NavHost(navController = navController, startDestination = "home") {
         composable("home") {
